@@ -5,6 +5,9 @@
 <img src="https://github.com/moonlessdark/JiuYinDance/blob/master/DeskPageV2/Resources/cover.png">
 </div>
 
+## 特别说明：  
+<font color=red>此版本已经停止维护，我已经有一个新的重构版本，后续有新功能或者BUG修复都在新项目处理。</font>  
+
 ## 特别提示：  
 如果该脚本被微软的杀毒软件(Windows Defender)报毒，请按照此教程给出的方案处理。  
 https://segmentfault.com/q/1010000039054120/a-1020000039066088  
