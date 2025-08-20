@@ -1,0 +1,172 @@
+# 图标模板、文件的路径
+
+keyBoardMouseDll:
+  # 幽灵键鼠和大漠的驱动
+  dmDll:
+    dm: /Resources/ImageTemplate/FileDll/dm.dll
+    dm_reg: /Resources/ImageTemplate/FileDll/DmReg.dll
+  ghostDll:
+    ghost_dll: /Resources/ImageTemplate/FileDll/gbild64.dll
+
+# 团练授业的按钮
+DanceGrey:
+  # 按钮 下
+  down: Resources/ImageTemplate/PicDance/pic_dance_down_grey.png
+  # 按钮 上
+  up: Resources/ImageTemplate/PicDance/pic_dance_up_grey.png
+  # 按钮 左
+  left: Resources/ImageTemplate/PicDance/pic_dance_left_grey.png
+  # 按钮 右
+  right: Resources/ImageTemplate/PicDance/pic_dance_right_grey.png
+  # 按钮 J
+  j: Resources/ImageTemplate/PicDance/pic_dance_J.png
+  # 按钮 K
+  k: Resources/ImageTemplate/PicDance/pic_dance_K.png
+
+# 绿色的上下左右,用在漠西风涛
+DanceGreen:
+  # 按钮 下
+  down: /Resources/ImageTemplate/PicDance/pic_dance_down_green.png
+  # 按钮 上
+  up: /Resources/ImageTemplate/PicDance/pic_dance_up_green.png
+  # 按钮 左
+  left: /Resources/ImageTemplate/PicDance/pic_dance_left_green.png
+  # 按钮 右
+  right: /Resources/ImageTemplate/PicDance/pic_dance_right_green.png
+
+#绿色的上下左右，用在挖宝的修罗刀也其他的地方
+WhzDance:
+  # 按钮 下
+  down: /Resources/ImageTemplate/PicDance/whz_dance_down.png
+  # 按钮 上
+  up: /Resources/ImageTemplate/PicDance/whz_dance_up.png
+  # 按钮 左
+  left: /Resources/ImageTemplate/PicDance/whz_dance_left.png
+  # 按钮 右
+  right: /Resources/ImageTemplate/PicDance/whz_dance_right.png
+
+# 物品背包
+ItemBackpack:
+  # 未点击物品栏
+  backPack_unclick_status: /Resources/ImageTemplate/PicItemBackpack/物品包02.png
+  # 已经打开物品栏
+  backPack_clicked_status: /Resources/ImageTemplate/PicItemBackpack/物品包01.png
+  # 御风神水
+  yu_feng_shen_shui: /Resources/ImageTemplate/PicItemBackpack/御风神水.png
+  # 礼卡(9点开卡的)
+  gift_card: /Resources/ImageTemplate/PicItemBackpack/礼卡.png
+
+# 人物状态，右上角的状态或者进度条
+PersonBuff:
+  # 御风神水开启读条中
+  yu_feng_shen_shui_ready: /Resources/ImageTemplate/PicPersonBuff/御风神水ready.png
+  # 御风神水已经开启
+  yu_feng_shen_shui_run: /Resources/ImageTemplate/PicPersonBuff/御风神水buff.png
+  # 人物满血
+  person_blood_full: /Resources/ImageTemplate/PicPersonBuff/满血.png
+  # 空血条
+  person_blood_less: /Resources/ImageTemplate/PicPersonBuff/空血条.png
+  # 打坐恢复
+  restore: /Resources/ImageTemplate/PicPersonBuff/打坐.png
+
+# 物品操作状态
+OptStatus:
+  # 进度条读取中，适合所有类型的需要加载进度条的
+  item_open_loading: /Resources/ImageTemplate/PicOptStatus/打开中.png
+  get_all_goods: /Resources/ImageTemplate/PicOptStatus/全部拾取.png
+
+# 查找地图
+Map:
+  # 地图缩放至最大
+  map_plus_max: /Resources/ImageTemplate/PicMap/plus_map.png
+  # 输入X坐标
+  point_x: /Resources/ImageTemplate/PicMap/pox_x.png
+  # 输入Y坐标
+  point_y: /Resources/ImageTemplate/PicMap/pox_y.png
+  # 查找坐标的按钮
+  search_pos: /Resources/ImageTemplate/PicMap/search_pos.png
+  # 查找结果
+  search_pos_result: /Resources/ImageTemplate/PicMap/result_point.png
+
+# 组队
+team:
+  create_team: /Resources/ImageTemplate/PicTeam/创建队伍.png
+  flag_team: /Resources/ImageTemplate/PicTeam/team_mark.png
+  flag_team_status: /Resources/ImageTemplate/PicTeam/队伍标志.png
+  leave_team: /Resources/ImageTemplate/PicTeam/解散队伍.png
+
+# 押镖
+PicTruckCar:
+  Area:
+    JinLing:
+      HuangJiaLieChang: /Resources/ImageTemplate/PicTruckCar/Area/JinLing/皇家猎场.png
+      MeiHuaMen: /Resources/ImageTemplate/PicTruckCar/Area/JinLing/梅花门.png
+      MoChouHu: /Resources/ImageTemplate/PicTruckCar/Area/JinLing/莫愁湖.png
+      address: /Resources/ImageTemplate/PicTruckCar/NPC/金陵.png
+      npc: /Resources/ImageTemplate/PicTruckCar/NPC/金陵npc.png
+    LuoYang:
+      BaoDuZhai: /Resources/ImageTemplate/PicTruckCar/Area/LuoYang/抱犊寨.png
+      QinWangFu: /Resources/ImageTemplate/PicTruckCar/Area/LuoYang/秦王府.png
+      YanMenShiJia: /Resources/ImageTemplate/PicTruckCar/Area/LuoYang/燕门世家.png
+      address: /Resources/ImageTemplate/PicTruckCar/NPC/洛阳.png
+      npc: /Resources/ImageTemplate/PicTruckCar/NPC/洛阳npc.png
+    SuZhou:
+      BaoChuanChang: /Resources/ImageTemplate/PicTruckCar/Area/SuZhou/宝船厂.png
+      CaiShiChang: /Resources/ImageTemplate/PicTruckCar/Area/SuZhou/采石场.png
+      WuWangMu: /Resources/ImageTemplate/PicTruckCar/Area/SuZhou/吴王墓.png
+      YongCuiShanZhuang: /Resources/ImageTemplate/PicTruckCar/Area/SuZhou/拥翠山庄.png
+      address: /Resources/ImageTemplate/PicTruckCar/NPC/苏州.png
+      npc: /Resources/ImageTemplate/PicTruckCar/NPC/苏州npc.png
+    YanJin:
+      DongFang: /Resources/ImageTemplate/PicTruckCar/Area/YanJin/东方世家.png
+      JiMingYi: /Resources/ImageTemplate/PicTruckCar/Area/YanJin/鸡鸣驿.png
+      JunMaChang: /Resources/ImageTemplate/PicTruckCar/Area/YanJin/军马场.png
+      YiRenZhuang: /Resources/ImageTemplate/PicTruckCar/Area/YanJin/异人庄.png
+      address: /Resources/ImageTemplate/PicTruckCar/NPC/燕京.png
+      npc: /Resources/ImageTemplate/PicTruckCar/NPC/燕京npc.png
+    chengdu:
+      GaiBang: /Resources/ImageTemplate/PicTruckCar/Area/ChengDu/丐帮驻地.png
+      NanGong: /Resources/ImageTemplate/PicTruckCar/Area/ChengDu/南宫世家.png
+      QianDengZheng: /Resources/ImageTemplate/PicTruckCar/Area/ChengDu/千灯镇.png
+      ShenJiaBao: /Resources/ImageTemplate/PicTruckCar/Area/ChengDu/沈家堡.png
+      address: /Resources/ImageTemplate/PicTruckCar/NPC/成都.png
+      npc: /Resources/ImageTemplate/PicTruckCar/NPC/成都npc.png
+  car_type_big: /Resources/ImageTemplate/PicTruckCar/CarType/大车.png
+  car_type_little: /Resources/ImageTemplate/PicTruckCar/CarType/小车.png
+  car_type_medium: /Resources/ImageTemplate/PicTruckCar/CarType/中车.png
+  qin_xiu: /Resources/ImageTemplate/PicTruckCar/勤修.png
+  bang_hui: /Resources/ImageTemplate/PicTruckCar/帮会.png
+  qin_xiu_activity_list: /Resources/ImageTemplate/PicTruckCar/活动列表.png
+  qin_xiu_truck_car_npc_chengdu: /Resources/ImageTemplate/PicTruckCar/chengdu_truck_car_npc.png
+  qin_xiu_truck_car_task: /Resources/ImageTemplate/PicTruckCar/日常运镖.png
+  receive_task: /Resources/ImageTemplate/PicTruckCar/receive_task.png
+  receive_task_confirm: /Resources/ImageTemplate/PicTruckCar/receive_task_confirm.png
+  receive_task_talk: /Resources/ImageTemplate/PicTruckCar/receive_task_talk.png
+  break_npc_talk: /Resources/ImageTemplate/PicTruckCar/break_talk.png
+TruckCarPic:
+  car_flag: /Resources/ImageTemplate/PicTruckCar/CarsFlag.png
+  task_car_selected: /Resources/ImageTemplate/PicTruckCar/truck_car_selected.png
+  task_flag_status: /Resources/ImageTemplate/PicTruckCar/CarFlag.png
+  task_flags_yellow_car: /Resources/ImageTemplate/PicTruckCar/car_yellow_flag.png
+  task_monster_fight: /Resources/ImageTemplate/PicTruckCar/fight_status_2.png
+  task_monster_target: /Resources/ImageTemplate/PicTruckCar/fight_status_2.png
+  task_monster_target_skill: /Resources/ImageTemplate/PicTruckCar/car_monster_skill_1.png
+  task_star_mode: /Resources/ImageTemplate/PicTruckCar/truck_type.png
+  fight_other_truck_car: /Resources/ImageTemplate/PicTruckCar/镖车切磋.png
+PersonPoint:
+  zero : /Resources/ImageTemplate/PicPointNum/0.png
+  one : /Resources/ImageTemplate/PicPointNum/1.png
+  two : /Resources/ImageTemplate/PicPointNum/2.png
+  three : /Resources/ImageTemplate/PicPointNum/3.png
+  four : /Resources/ImageTemplate/PicPointNum/4.png
+  five : /Resources/ImageTemplate/PicPointNum/5.png
+  six : /Resources/ImageTemplate/PicPointNum/6.png
+  seven : /Resources/ImageTemplate/PicPointNum/7.png
+  eight : /Resources/ImageTemplate/PicPointNum/8.png
+  nine : /Resources/ImageTemplate/PicPointNum/9.png
+  d : /Resources/ImageTemplate/PicPointNum/点.png
+  f : /Resources/ImageTemplate/PicPointNum/负数.png
+MyFight:
+  my_fight : /Resources/ImageTemplate/PicMyFight/我的战斗.png
+  xuan_ji_mi_jing : /Resources/ImageTemplate/PicMyFight/玄机秘境.png
+  registration : /Resources/ImageTemplate/PicMyFight/个人报名.png
