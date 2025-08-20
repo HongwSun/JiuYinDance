@@ -5,11 +5,15 @@
 <img src="./_internal/Resources/Readme/cover.png">
 </div>
 
+
 ## 特别提示:
 ----  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果该脚本被微软的杀毒软件(Windows Defender)报毒，请按照  **[此教程](https://segmentfault.com/q/1010000039054120/a-1020000039066088)**  给出的方案处理。
 报毒是打包工具Pyinstaller引起的。  
   
+=======
+## 特别说明：  
+<font color=red>此版本已经停止维护，我已经有一个新的重构版本，后续有新功能或者BUG修复都在新项目处理。</font>  
 
 
 ## 前言:
@@ -111,5 +115,4 @@
 * 此脚本未绑定窗口，尽量减少被发现的几率。  
 * 键盘操作调用幽灵键鼠，截图操作调用windowsapi，图片识别使用opencv处理。  
 * 按钮之间增加随机等待时间，尽量表现的像个人(但是会影响执行速度，表现出的效果就是按键的时候时快时慢)  
-<br>
-<br>
+
