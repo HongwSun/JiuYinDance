@@ -1,40 +1,44 @@
 
-# <div align='center'>九阴真经OL摸鱼小助手</div> 
+# <div align='center'>九阴真经OL日常辅助小助手</div> 
 
 <div align=center>
-<img src="./_internal/Resources/Readme/cover.png">
+  <img src="https://github.com/moonlessdark/JiuYinDance/blob/master/Resources/Readme/cover.png">
 </div>
 
 
 ## 特别提示:
 ----  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果该脚本被微软的杀毒软件(Windows Defender)报毒，请按照  **[此教程](https://segmentfault.com/q/1010000039054120/a-1020000039066088)**  给出的方案处理。
-报毒是打包工具Pyinstaller引起的。  
+报毒是打包工具Pyinstaller引起的。   
   
-=======
-## 特别说明：  
-<font color=red>此版本已经停止维护，我已经有一个新的重构版本，后续有新功能或者BUG修复都在新项目处理。</font>  
+## 欢迎语：
+----  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;欢迎各位大佬来侠骨丹心游玩，峨眉山上风景好，泉水甜，师姐师妹们各个都是人才，说话又好听...  
 
 
 ## 前言:
 ----  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本项目是用于学习opencv与PySide6的实操作品，仅供学习。免费作品,请勿用于商业。   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此脚本支持的功能较少，且不算稳定，抗干扰性较差，只适合在老区养老，不适合新区养号。  
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此脚本支持的功能较少，且不算稳定，抗干扰性较差，只适合在老区养老，不适合新区养号。    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此脚本只是为了辅助日常活动，并不是全自动托管的程序。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;若您需要更多的功能，建议参考以下2种收费的脚本:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 麦卡Mac助手，可以在淘宝购买。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- **[PC助手·九阴全系列解决方案 官网](https://www.ookan.com/)**  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本脚本在win10系统开发，其他系统未做兼容和调试，不保证能正常使用。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此脚本为“图色脚本”，不支持窗口绑定，不支持窗口最小化。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python版本: 3.13  
 
 ## 系统硬件与设置  
 ----  
 ### 硬件  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22年6月蜗牛更新之后，免费版大漠插件只能在win7系统使用，此脚本改为使用“幽灵键鼠”(一个小U盘)。  
-<div align=center><img src="./_internal/Resources/Readme/ghostkb.png" style="width:20%; height:auto;"></div>
+<div align=center>
+<img src="https://github.com/moonlessdark/JiuYinDance/blob/master/Resources/Readme/ghostkb.PNG">
+
+</div>
 <div align=center>“幽灵键鼠”请在淘宝购买，买最便宜的那款就行了。</div>
 
 ### 游戏设置
@@ -53,7 +57,7 @@
 ##  功能说明事项  
 ----
 <div align=center>
-<img src="./_internal/Resources/Readme/主界面.PNG">
+<img src="https://github.com/moonlessdark/JiuYinDance/blob/master/Resources/Readme/主界面.PNG">
 </div>   
 
 ### 已经实现的功能  
@@ -88,7 +92,8 @@
 *  <font color=red>在使用押镖之前，请先去菜单栏“配置”-“编辑技能”文件修改一下您的技能按键。</font>  
  
 <div align=center>
-<img src="./_internal/Resources/Readme/技能设置.PNG">
+<img src="https://github.com/moonlessdark/JiuYinDance/blob/master/Resources/Readme/技能设置.PNG">
+
 </div>
 
 * 注意: 怒气招请的优先级请设置为最低。因为没有判断当前角色的“怒气值”是否足够。或者怒气招如果是加BUFF类型的，干脆就不填写此招式。  
@@ -98,7 +103,7 @@
 
 ### 关于物资采集
 <div align=center>
-<img src="./_internal/Resources/Readme/物资采集.PNG">
+<img src="https://github.com/moonlessdark/JiuYinDance/blob/master/Resources/Readme/物资采集.PNG">
 </div>
 
 *  请先设置好采集的路径,将地图中物资(矿石、树木)的坐标填写到表格中。
