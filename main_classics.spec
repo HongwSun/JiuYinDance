@@ -5,10 +5,10 @@ block_cipher = None
 
 
 a = Analysis(
-    ['main_classics.py'],
+    ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[('DeskPageV2/Resources/.', 'Resources/.'), ('DeskPageV2/Resources/ppocronnx/.', 'ppocronnx/.'), ('README.md', '.')],
+    datas=[('./Resources/.', './Resources/.'), ('./Resources/ppocronnx/.', './ppocronnx/.'),('./README.MD', './')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -47,5 +47,5 @@ coll = COLLECT(
     upx=True,
     upx_exclude=[],
     name='JiuDancing',
-    icon='.\DeskPageV2\Resources\logo\app_logo.ico',
+    icon='.\Resources\logo\app_logo.ico',
 )
